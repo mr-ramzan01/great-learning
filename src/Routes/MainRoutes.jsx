@@ -9,6 +9,7 @@ import Datascience from "../Pages/Course/data.science";
 import Cybercourse from "../Pages/Course/cuber.course";
 import Aimachine from "../Pages/Course/ai.machine";
 import About from "../Pages/About/About";
+import Refund from "../Pages/Refund/Refund";
 
 export const MainRoutes = () => {
   return (
@@ -84,6 +85,16 @@ export const MainRoutes = () => {
               <Header />
               <About />
               <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/refund-policy"
+          element={
+            <>
+              {/* <Header /> */}
+              <Refund />
+              {/* <Footer /> */}
             </>
           }
         />
