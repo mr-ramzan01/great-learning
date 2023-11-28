@@ -6,7 +6,7 @@ import OurMission from "../../Components/About/OurMission";
 
 const About = () => {
   return (
-    <Flex flexDirection={"column"} gap={20}>
+    <Flex flexDirection={"column"} gap={10}>
       {/* heading  */}
       <AboutHead />
       {/* our vision  */}
