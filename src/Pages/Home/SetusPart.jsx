@@ -1,4 +1,12 @@
-import { Box, Flex, Heading, Text, Image, Icon, Button } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Heading,
+  Text,
+  Image,
+  Icon,
+  Button,
+} from "@chakra-ui/react";
 import React from "react";
 import { MdCheckCircleOutline } from "react-icons/md";
 
@@ -48,12 +56,23 @@ function SetsUsApart() {
         <Heading textAlign={"center"} color="#b9292f" mb={4}>
           Upskill Nexus Higlights
         </Heading>
-        <Text w={{ base: "full", md: "70%" }} textAlign={{ base: "justify", md: "center" }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis expedita sequi nemo nisi saepe doloremque non, assumenda commodi fuga quo illo nihil sunt iusto tenetur corrupti dicta, vero quos alias?
+        <Text
+          w={{ base: "full", md: "70%" }}
+          textAlign={{ base: "justify", md: "center" }}
+        >
+          Here are the standout features that make Upskill Nexus unique compared
+          to other training providers. These are what set us apart and make us
+          the go-to choice for upskilling.
         </Text>
       </Flex>
 
-      <Flex flexDir="column" gap="5" align="center" justify="center" maxW="1200px">
+      <Flex
+        flexDir="column"
+        gap="5"
+        align="center"
+        justify="center"
+        maxW="1200px"
+      >
         <Flex
           flexDir={{ base: "column-reverse", md: "row" }}
           justify="space-between"
@@ -63,14 +82,23 @@ function SetsUsApart() {
           p={{ base: 3, md: 4 }}
         >
           {/* Left Side (Content) */}
-          <Box flex="1" py={4} textAlign={{ base: "start", md: "left" }} mb={{ base: 5, md: 0 }}>
+          <Box
+            flex="1"
+            py={4}
+            textAlign={{ base: "start", md: "left" }}
+            mb={{ base: 5, md: 0 }}
+          >
             {contentData.map((content, index) => (
               <Flex key={index}>
                 <Box>
                   <Icon color="#b9292f" boxSize={6} mr={2} as={content.icon} />
                 </Box>
                 <Box>
-                  <Heading color="#000" px={{ base: 1, md: 0 }} fontSize={{ base: "xl", md: "1xl" }}>
+                  <Heading
+                    color="#000"
+                    px={{ base: 1, md: 0 }}
+                    fontSize={{ base: "xl", md: "1xl" }}
+                  >
                     {content.title}
                   </Heading>
                   <Flex mb={4}>
@@ -87,11 +115,21 @@ function SetsUsApart() {
 
           {/* Right Side (Image) */}
           {/* <Box> */}
-          <Image src="/img5.jpg" alt="Training Image" maxW={{ base: "100%", md: "50%" }} boxShadow="0px 0px 10px rgba(0, 0, 0, 0.2)" />
+          <Image
+            src="/img5.jpg"
+            alt="Training Image"
+            maxW={{ base: "100%", md: "50%" }}
+            boxShadow="0px 0px 10px rgba(0, 0, 0, 0.2)"
+          />
           {/* </Box> */}
         </Flex>
 
-        <Button border="1px solid #b9292f" bg="#b9292f" color="#fff" _hover={{ bg: "#fff", color: "#b9292f" }}>
+        <Button
+          border="1px solid #b9292f"
+          bg="#b9292f"
+          color="#fff"
+          _hover={{ bg: "#fff", color: "#b9292f" }}
+        >
           Explore Our Courses
         </Button>
       </Flex>
