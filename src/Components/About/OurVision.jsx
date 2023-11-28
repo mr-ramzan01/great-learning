@@ -3,17 +3,17 @@ import React from "react";
 
 const OurVision = () => {
   return (
-    <Flex justifyContent={"center"} paddingX={20} flexDirection={"column"}>
+    <Flex justifyContent={"center"} paddingX={{base : "20px",sm : "60px",md : "70px",lg : "80px"}} flexDirection={"column"}>
       <Text
         textAlign={"center"}
-        fontSize={"33px"}
+        fontSize={["24px","27px","30px","33px"]}
         fontWeight={700}
         textColor={"red.600"}
       >
         Our Vision
       </Text>
       <Text
-        fontSize={"21px"}
+        fontSize={["15px","17px","19px","21px"]}
         textAlign={"center"}
         fontWeight={500}
         textColor={"gray.600"}

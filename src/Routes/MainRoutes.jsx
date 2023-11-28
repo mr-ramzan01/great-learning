@@ -83,7 +83,7 @@ export const MainRoutes = () => {
             <>
               <Header />
               <About />
-              {/* <Footer /> */}
+              <Footer />
             </>
           }
         />

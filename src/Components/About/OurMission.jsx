@@ -5,21 +5,33 @@ const OurMission = () => {
   return (
     <Box>
       <Text
-        marginY={10}
         textAlign={"center"}
-        fontSize={"33px"}
+        fontSize={["24px", "27px", "30px", "33px"]}
         fontWeight={700}
         textColor={"red.600"}
       >
         Our Mission
       </Text>
-      <Flex justifyContent={"space-around"} flexDirection={"row-reverse"}>
+      <Flex
+        gap={["40px", "20px", "20px", "20px"]}
+        flexDirection={{ base: "column", md: "row", lg: "row" }}
+        justifyContent={"space-around"}
+      >
         {/* one  */}
-        <Flex mt={10} flexDirection={"column"} w={"600px"}>
+        <Flex
+          mt={10}
+          paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
+          flexDirection={"column"}
+          w={["auto", "auto", "600px"]}
+        >
           <Text fontSize={"18px"} textColor={"gray.500"} fontWeight={600}>
             Empowering Digitech Futures, Shaping Success
           </Text>
-          <Text fontSize={"21px"} textColor={"gray.600"} fontWeight={600}>
+          <Text
+            fontSize={["16px", "20px", "24px"]}
+            textColor={"gray.600"}
+            fontWeight={600}
+          >
             Our mission at UpskillNexus is to be the beacon of transformation in
             the realm of digital technology and employability skills training.
             We are committed to cultivating a dynamic learning environment where
@@ -44,17 +56,24 @@ const OurMission = () => {
         </Flex>
         {/* two  */}
         <Box
-          height={"400px"}
+          height={["300px", "300px", "400px"]}
           borderRadius={"71% 29% 70% 30% / 53% 62% 38% 47%"}
-          width={"400px"}
+          width={["300px", "300px", "400px"]}
           bgColor={"red"}
           backgroundImage="url('https://i.pinimg.com/564x/c7/71/92/c771926a82d18208ac80eebfef4de3be.jpg')"
           backgroundPosition="cover"
           // backgroundRepeat="no-repeat"
         ></Box>
       </Flex>
-      <Box paddingX={20} mt={3}>
-        <Text fontSize={"21px"} textColor={"gray.600"} fontWeight={600}>
+      <Box
+        paddingX={{ base: "20px", sm: "60px", md: "70px", lg: "80px" }}
+        mt={3}
+      >
+        <Text
+          fontSize={["16px", "20px", "24px"]}
+          textColor={"gray.600"}
+          fontWeight={600}
+        >
           Through practical, innovative and personalized training, we aspire to
           bridge the gap between education and employment, fostering a community
           of empowered individuals ready to make a lasting impact on the global
