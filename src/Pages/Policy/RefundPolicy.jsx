@@ -1,5 +1,9 @@
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import RefundHead from "../../Components/Refund/RefundHead";
+import CanelRefund from "../../Components/Refund/CanelRefund";
+import Cancel2 from "../../Components/Refund/Cancel2";
+import Batch from "../../Components/Refund/Batch";
 
 const RefundPolicy = () => {
   const data = [
@@ -30,7 +34,11 @@ const RefundPolicy = () => {
           no: "2.1",
           tit: "Request Process",
           p: "To initiate a refund request, please contact our customer support team and provide the following information:",
-          list: ["Your full name and contact information", "Course name and date of purchase", "Reason for the refund request"],
+          list: [
+            "Your full name and contact information",
+            "Course name and date of purchase",
+            "Reason for the refund request",
+          ],
         },
         {
           no: "2.3",
@@ -57,12 +65,16 @@ const RefundPolicy = () => {
       ],
     },
   ];
+
   return (
     <>
-      <Flex py="5" bg="gray.50" flexDir={"column"} align="center">
-        <Heading textAlign={"center"}>Refund Policy</Heading>
-
-        <Flex flexDir={"column"} gap="20px" py="5" w="80%">
+      <Flex py="5" bg="gray.50" gap={10} flexDir={"column"} align="center">
+        <Box>
+          <Heading textAlign={"center"}>Refund Policy (Upskill Nexus)</Heading>
+          <RefundHead />
+        </Box>
+        {/* old  */}
+        {/* <Flex flexDir={"column"} gap="20px" py="5" w="80%">
           {data.map((ele, i) => (
             <Box boxShadow={"md"} bg="gray.100" key={i} p="3" borderRadius={"10px"}>
               <Heading size="lg" color="gray.700">
@@ -90,7 +102,13 @@ const RefundPolicy = () => {
               ))}
             </Box>
           ))}
-        </Flex>
+        </Flex> */}
+        {/* old  */}
+        {/* new  */}
+        {/* cancel  */}
+        <CanelRefund />
+        <Cancel2 />
+        <Batch />
       </Flex>
     </>
   );
