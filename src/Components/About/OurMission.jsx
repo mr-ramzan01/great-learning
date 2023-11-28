@@ -28,9 +28,9 @@ const OurMission = () => {
             Empowering Digitech Futures, Shaping Success
           </Text>
           <Text
-            fontSize={["16px", "20px", "24px"]}
+            fontSize={["16px", "18px", "22px"]}
             textColor={"gray.600"}
-            fontWeight={600}
+            // fontWeight={600}
           >
             Our mission at UpskillNexus is to be the beacon of transformation in
             the realm of digital technology and employability skills training.
@@ -66,13 +66,14 @@ const OurMission = () => {
         ></Box>
       </Flex>
       <Box
-        paddingX={{ base: "20px", sm: "60px", md: "70px", lg: "80px" }}
+        paddingX={{ base: "20px", sm: "60px", md: "70px", lg: "95px" }}
         mt={3}
+        mb={20}
       >
         <Text
-          fontSize={["16px", "20px", "24px"]}
+          fontSize={["16px", "18px", "22px"]}
           textColor={"gray.600"}
-          fontWeight={600}
+        //   fontWeight={600}
         >
           Through practical, innovative and personalized training, we aspire to
           bridge the gap between education and employment, fostering a community
