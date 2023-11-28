@@ -8,6 +8,7 @@ import Term_condition from "../Pages/Policy/Term_condition";
 import Datascience from "../Pages/Course/data.science";
 import Cybercourse from "../Pages/Course/cuber.course";
 import Aimachine from "../Pages/Course/ai.machine";
+import About from "../Pages/About/About";
 
 export const MainRoutes = () => {
   return (
@@ -73,6 +74,16 @@ export const MainRoutes = () => {
               <Header />
               <Aimachine />
               <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <>
+              <Header />
+              <About />
+              {/* <Footer /> */}
             </>
           }
         />
