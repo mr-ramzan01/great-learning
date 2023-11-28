@@ -25,9 +25,9 @@ const AboutHead = () => {
           ABOUT US
         </Text>
         <Text
-          fontSize={["16px", "20px", "24px"]}
+          fontSize={["16px", "18px", "22px"]}
           textColor={"gray.600"}
-          fontWeight={600}
+        //   fontWeight={100}
         >
           UpskillNexus is a higher education initiative invested in providing
           growth-oriented individuals with high-quality authentic and practical

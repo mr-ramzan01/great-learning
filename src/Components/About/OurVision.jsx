@@ -15,7 +15,7 @@ const OurVision = () => {
       <Text
         fontSize={["15px","17px","19px","21px"]}
         textAlign={"center"}
-        fontWeight={500}
+        // fontWeight={500}
         textColor={"gray.600"}
       >
         Our vision at UpskillNexus is to equip individuals with not only the
