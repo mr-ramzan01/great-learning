@@ -175,7 +175,8 @@ export const Header = () => {
             marginTop={{ base: "1rem", md: "0" }}
             style={flexStyles}
           >
-            <Button
+           <Link to='/programs'>
+           <Button
               _hover={hoverStyle}
               border={"1px solid #b9292f"}
               w="160px"
@@ -183,7 +184,7 @@ export const Header = () => {
               color="#b9292f"
             >
               Explore Programs
-            </Button>
+            </Button></Link>
             <Link _hover={{ background: "blue" }} to="/about">
               About Us
             </Link>
