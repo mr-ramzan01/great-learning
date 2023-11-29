@@ -10,6 +10,7 @@ import Cybercourse from "../Pages/Course/cuber.course";
 import Aimachine from "../Pages/Course/ai.machine";
 import About from "../Pages/About/About";
 import Refund from "../Pages/Refund/Refund";
+import Terms from "../Pages/Terms/Terms";
 
 export const MainRoutes = () => {
   return (
@@ -94,6 +95,16 @@ export const MainRoutes = () => {
             <>
               {/* <Header /> */}
               <Refund />
+              {/* <Footer /> */}
+            </>
+          }
+        />
+        <Route
+          path="/terms_of_use"
+          element={
+            <>
+              {/* <Header /> */}
+              <Terms />
               {/* <Footer /> */}
             </>
           }
