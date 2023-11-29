@@ -25,16 +25,12 @@ const CanelRefund = () => {
   ];
   return (
     <Box>
-      <Heading textAlign={"center"}>
+      <Text fontSize={{base: "22px", md: '30px'}}>
         CANCELLATION AND REFUNDS: ONLINE CLASSROOM LEARNING
-      </Heading>
+      </Text>
 
-      <Box mt={10}>
+      <Box mt={5}>
         <Text
-          textAlign={"start"}
-          // paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
-          paddingX={[4, 10, 10, 20]}
-          fontSize={["15px", "17px", "20px"]}
         >
           Thank you for buying our training programs. We want to make sure that
           our users have a rewarding experience while they are discovering
@@ -42,10 +38,6 @@ const CanelRefund = () => {
           it may be for online or classroom training courses.
         </Text>
         <Text
-          textAlign={"start"}
-          // paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
-          paddingX={[4, 10, 10, 20]}
-          fontSize={["15px", "17px", "20px"]}
         >
           As with any online purchase experience, the below are the terms and
           conditions that govern the Refund Policy. When you buy a training
@@ -60,12 +52,12 @@ const CanelRefund = () => {
             gap={5}
             justifyContent={"start"}
             alignItems={"center"}
-            paddingX={[4, 10, 10, 20]}
+            paddingX={[2, 3, 4, 5]}
           >
             <div style={{width : "30px"}}>
               <FaArrowRight style={{ width: "13px", height: "13px" }} />
             </div>
-            <Text mt={4} fontSize={["14px", "16px", "18px"]}>
+            <Text mt={4}>
               {el.point}
             </Text>
           </Flex>
@@ -74,10 +66,6 @@ const CanelRefund = () => {
       {/* last heading  */}
       <Box mt={5}>
         <Text
-          textAlign={"start"}
-          // paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
-          paddingX={[4, 10, 10, 20]}
-          fontSize={["15px", "17px", "20px"]}
         >
           If the learners want to re-attend the online instructor led classes
           for the purchased course and if there is no availability of the batch
@@ -85,10 +73,6 @@ const CanelRefund = () => {
           of the total amount paid.
         </Text>
         <Text
-          textAlign={"start"}
-          // paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
-          paddingX={[4, 10, 10, 20]}
-          fontSize={["15px", "17px", "20px"]}
         >
           If due to any technical reason learners are not able to access the
           self-paced videos or class recordings and already attended the
@@ -97,11 +81,11 @@ const CanelRefund = () => {
           the amount equivalent of the 10% amount paid by the learner at the
           time of enrollment.
         </Text>
-        <Flex gap={4} paddingX={[4, 10, 10, 20]}>
-          <Text textColor={"red.500"} fontSize={["15px", "17px", "20px"]}>
-            Note :{" "}
+        <Flex gap={4}>
+          <Text textColor={"red.500"}>
+            Note:{" "}
           </Text>
-          <Text fontSize={["15px", "17px", "20px"]}>
+          <Text>
             All refunds will be processed within 30 working days, post review
             and approval of any such request.
           </Text>

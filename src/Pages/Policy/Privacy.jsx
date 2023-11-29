@@ -502,9 +502,9 @@ const pData = [
 
 const Privacy = () => {
   return (
-    <Flex py="5" flexDir={"column"} align="center">
-      <Text fontSize={'40px'} textAlign={"center"}>Privacy Policy</Text>
-      <Box w={{ base: "100%", md: "80%" }} m="auto" p="5">
+    <Flex p="5" flexDir={"column"} align="center">
+      <Text fontSize={{base: '30px', md: '40px'}} textAlign={"center"}>Privacy Policy</Text>
+      <Box w={{ base: "100%", md: "80%" }} m="auto">
         <Text>
           We at Upskill Nexus respect your privacy and want you to understand
           how we collect, use, and share data about you. This Privacy Policy
