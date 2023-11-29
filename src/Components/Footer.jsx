@@ -24,7 +24,7 @@ const Footer = () => {
   const navigate = useNavigate();
   // Data for useful links
   const usefulLinks = [
-    { name: "About Us", path: "link" },
+    { name: "About Us", path: "about" },
     { name: "Blog", path: "#" },
     // { name: "Sitemap", path: "#" },
     { name: "We Are Hiring", path: "#" },

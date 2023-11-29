@@ -3,14 +3,10 @@ import React from "react";
 
 const Batch = () => {
   return (
-    <Flex flexDirection={"column"} gap={10}>
-      <Heading textAlign={"center"}>BATCH DEFERRAL POLICY</Heading>
+    <Flex flexDirection={"column"}>
+      <Text fontSize={{base: "22px", md: '30px'}}>BATCH DEFERRAL POLICY</Text>
       <Box>
         <Text
-          textAlign={"start"}
-          // paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
-          paddingX={[4, 10, 10, 20]}
-          fontSize={["15px", "17px", "20px"]}
         >
           Due to any reason you want to defer the batch or restart the classes
           in a new batch then you need to send the batch defer request on our
@@ -24,10 +20,6 @@ const Batch = () => {
           course fees paid for the program + Taxes.
         </Text>
         <Text
-          textAlign={"start"}
-          // paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
-          paddingX={[4, 10, 10, 20]}
-          fontSize={["15px", "17px", "20px"]}
         >
           No refund will be provided and access will be revoked. If anytime
           found course is been shared with others / multiple users or intention
@@ -36,8 +28,8 @@ const Batch = () => {
         </Text>
       </Box>
 
-      <Box gap={4} paddingX={[4, 10, 10, 20]}>
-        <Text fontSize={["15px", "17px", "20px"]}>
+      <Box gap={4}>
+        <Text>
           <p style={{color : "red"}}>
             Please Note —{" "}
           </p>

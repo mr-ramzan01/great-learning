@@ -68,44 +68,20 @@ const RefundPolicy = () => {
 
   return (
     <>
-      <Flex py="5" bg="gray.50" gap={10} flexDir={"column"} align="center">
+      <Flex
+        p="5"
+        w={{ base: "100%", md: "80%" }}
+        m="auto"
+        gap={10}
+        flexDir={"column"}
+        align="center"
+      >
         <Box>
-          <Heading textAlign={"center"}>Refund Policy (Upskill Nexus)</Heading>
+          <Text fontSize={{base: '30px', md: '40px'}} textAlign={"center"}>
+            Refund Policy (Upskill Nexus)
+          </Text>
           <RefundHead />
         </Box>
-        {/* old  */}
-        {/* <Flex flexDir={"column"} gap="20px" py="5" w="80%">
-          {data.map((ele, i) => (
-            <Box boxShadow={"md"} bg="gray.100" key={i} p="3" borderRadius={"10px"}>
-              <Heading size="lg" color="gray.700">
-                {i + 1}
-                {". "}
-                {ele?.title}
-              </Heading>
-              {ele?.arr?.map((el, ind) => (
-                <Box key={ind}>
-                  <Text position="relative" left="30px" maxW="99%">
-                    <b>{el?.no}</b>
-                    <b> {el?.tit}</b> {el?.p}
-                  </Text>
-                  {el?.list
-                    ? el?.list?.map((li, index) => (
-                        <Box key={index} position="relative" left="40px">
-                          <ul>
-                            <li>{li}</li>
-                          </ul>
-                        </Box>
-                      ))
-                    : //
-                      null}
-                </Box>
-              ))}
-            </Box>
-          ))}
-        </Flex> */}
-        {/* old  */}
-        {/* new  */}
-        {/* cancel  */}
         <CanelRefund />
         <Cancel2 />
         <Batch />
