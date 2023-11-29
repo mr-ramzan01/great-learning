@@ -1,5 +1,6 @@
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import TermHeading from "../../Components/Terms/TermHeading";
 
 const data = [
   {
@@ -89,15 +90,37 @@ const data = [
   },
 ];
 
+const mapArr = [
+  {
+    heading:
+      "PLEASE READ THEM CAREFULLY BEFORE YOU USE THE SERVICES OF THIS SITE.",
+    para: [
+      "You should not use this site in an unlawful manner; you must respect website terms and conditions and follow the privacy policy.",
+      "Under no situations or circumstances, the company will be liable for any change in the content which it provides on the website through its products and services, including but not limited to any errors, omissions, loss or damage experienced in connection with the use of exposure, any content made available via our products, services or various resources such as email, blog etc.",
+      "Our services are free to any user with access to the intemet. However, we are not responsible for the charges incurred for the usage of hardware, software or intemet services fee. Also, the user is fully responsible for the proper functioning of computer hardware internet access.",
+      "You will be required to use login credentials for some of the sections on the site and the company reserves the right to block access to our services for any user who does not follow these conditions.",
+      "We make sure that users get uninterrupted access to our service, but there is no obligation to do so.",
+      "Upskill Nexus is not responsible and is not obligated for issues in your network or server beyond certain limits.",
+      "Upskill Nexus is not responsible and is not obligated for issues in your network or server beyond certain limits.",
+    ],
+  },
+];
+
 const Term_condition = () => {
   return (
     <>
-      <Flex py="5" bg="gray.50" flexDir={"column"} align="center">
+      {/* <Flex py="5" bg="gray.50" flexDir={"column"} align="center">
         <Heading textAlign={"center"}>Term & Conditions</Heading>
 
         <Flex flexDir={"column"} gap="20px" p="5" w="80%">
           {data.map((ele, i) => (
-            <Box boxShadow={"md"} bg="gray.100" key={i} p="3" borderRadius={"10px"}>
+            <Box
+              boxShadow={"md"}
+              bg="gray.100"
+              key={i}
+              p="3"
+              borderRadius={"10px"}
+            >
               <Heading fontSize={"25px"} color="gray.700">
                 {ele?.title}
               </Heading>
@@ -111,7 +134,11 @@ const Term_condition = () => {
             </Box>
           ))}
         </Flex>
-      </Flex>
+      </Flex> */}
+      {/* hello */}
+      <Box>
+        <TermHeading />
+      </Box>
     </>
   );
 };

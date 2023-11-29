@@ -6,7 +6,6 @@ const RefundHead = () => {
     <Box mt={5}>
       <Text
         textAlign={"start"}
-        // paddingX={{ base: "15px", sm: "15px", md: "10px", lg: "5px" }}
         paddingX={[4, 10, 10, 20]}
         fontSize={["15px", "17px", "20px"]}
       >

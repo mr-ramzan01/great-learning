@@ -252,7 +252,7 @@ const Datascience = () => {
       </Flex> */}
 
       {/* An Overview of Data Science and Analytics */}
-      <Flex bg="white" align={"center"} justify="center" bg="gray.50" minH="60vh">
+      <Flex bg="white" align={"center"} justify="center" minH="60vh">
         <Box w="80%" p="5" textAlign={"center"}>
           <Heading>An Overview of Data Science and Analytics </Heading>
           <Text textAlign={"justify"}>Welcome to {"Teckostar's"} Data Science and Analytics program. In the 21st century, data has become super important. It's not just boring numbers; it's the most important thing for businesses. Being able to find valuable information from data is a skill that lots of companies want. All over the world, companies are using data to make good decisions, become better than their competitors, and think of new ideas. Data science and analytics are now part of everything in tech. People who work with data are like the architects of this change. They're the ones who look at all the information and turn it into useful ideas that help companies work better. Our Data Science and Analytics program isn't just about teaching you the basics; it's about getting you ready to do real work. We give you projects to work on, mentors to help you, and a community of learners to support you. Our lessons change as the world changes, and our trainers have lots of experience, so you're making a great investment in your future. Are you ready to explore this fascinating world of Data Science & Analytics? For a complete understanding of what you will learn during our Data Science & Analytics program, please click the “Download Course Curriculum” link below.</Text>
@@ -272,7 +272,7 @@ const Datascience = () => {
       {/*  */}
 
       {/* Learning Objectives */}
-      <Flex bg="white" p="8" gap="20px" flexDir="column" align="center" bg="gray.50">
+      <Flex bg="white" p="8" gap="20px" flexDir="column" align="center">
         <Heading size="lg">Learning Objectives</Heading>
 
         <SimpleGrid columns={{ base: 1, sm: 2, md: 2 }} spacing={4}>
