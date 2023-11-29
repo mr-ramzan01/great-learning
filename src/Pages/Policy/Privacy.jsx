@@ -392,17 +392,119 @@ const pData = [
         content: "Please note: even after your account is terminated, some or all of your data may still be visible to others, including without limitation any data that has been (a) copied, stored, or disseminated by other users (including in course comment); (b) shared or disseminated by you or others (including in your shared content); or (c) posted to a third-party platform. Even after your account is terminated, we retain your data for as long as we have a legitimate purpose to do so (and in accordance with applicable law), including to assist with legal obligations, resolve disputes, and enforce our agreements. We may retain and disclose such data pursuant to this Privacy Policy after your account has been terminated."
       },
       {
-        content: ""
+        heading: "Revocation of Consent"
+      },
+      {
+        content: "We recognise that the processing of your data may be based on your consent. In case you wish to withdraw such consent given to us for the processing of your data as identified in Section 3 above, please e-mail us at legal@Upskill Nexus.com. Please allow up to 30 days for a response. For your protection, we may require that the request be sent through the email address associated with your account, and may need to verify your identity before implementing your request."
+      },
+      {
+        content: "Further, please note that such revocation of consent shall be prospective in nature, and shall not affect the lawfulness of any data processed based on your consent given prior to revocation."
+      },
+      {
+        heading: "Complaints about our privacy policy or use of your data"
+      },
+      {
+        content: "While we take all measures to protect and secure your data, we understand that you may have grievances about our use of your data, or of our data protection measures. If you have any complaints of this nature, please feel free to contact us via our email address."
+      },
+      {
+        content: "In case you are not satisfied with our response, you can also reach out to the national data protection authorities in your region (provided you are in the EU). The list of national data protection authorities for EU member states may be accessed here."
+      },
+      {
+        content: "Please note that while we urge you to write to us for any grievances or with any complaints you may have, this does not preclude you from directly approaching the national data protection authorities mentioned above."
+      },
+      {
+        heading: "Children's Personal Information"
+      },
+      {
+        content: "Upskill Nexus does not knowingly collect any personal information from children under the age of 16. If you are under the age of 16, please do not submit any personal information through our Websites or Service(s). We encourage parents and legal guardians to monitor their children’s Internet usage and to help enforce this Policy by instructing their children never to provide personal information through our Service(s) or Websites without their permission. If you have reason to believe that a child under the age of 16 has provided personal information to us through our Websites or Service(s), please contact us and we will remove that information and terminate the child's account from our databases."
       },
     ],
+  },
+  {
+    h: "UPDATES & CONTACT INFO",
+    p: [
+      {
+        content: "When we make a material change to this policy, we’ll notify users via email, in-product notice, or another mechanism required by law. Changes become effective the day they’re posted. Please contact us via email with any questions, concerns, or disputes."
+      },
+      {
+        heading: "Modifications to This Privacy Policy"
+      },
+      {
+        content: "From time to time, we may update this Privacy Policy. If we make any material change to it, we will notify you via email, through a notification posted on the Services, or as required by applicable law. We will also include a summary of the key changes. Unless stated otherwise, modifications will become effective on the day they are posted."
+      },
+      {
+        content: "As permitted by applicable law, if you continue to use the Services after the effective date of any change, then your access and/or use will be deemed an acceptance of (and agreement to follow and be bound by) the revised Privacy Policy. The revised Privacy Policy supersedes all previous Privacy Policies."
+      },
+      {
+        heading: "Questions"
+      },
+      {
+        content: "Please feel free to contact our privacy team at our email address if you have any questions, concerns, or disputes regarding our Privacy Policy."
+      },
+    ]
+  },
+  {
+    h: "COOKIE POLICY",
+    p: [
+      {
+        content: "Upskill Nexus and our third-party partners, such as our advertising and analytics partners, (Google Adwords, Google Analytics, Google Drive, Facebook, Linkedin, Bing, Mailchimp, Zoho CRM, Zendesk, Getsitecontrol, Quora) use cookies and other tracking technologies (e.g., web beacons, device identifiers and pixels) to provide functionality and to recognize you across different Services and devices."
+      },
+      {
+        content: "You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since each browser is different, look at your browser's Help Menu to learn the correct way to modify your cookies."
+      },
+      {
+        content: "If you turn cookies off, some of the features that make your site experience more efficient may not function properly."
+      },
+    ]
+  },
+  {
+    h: "LINKS TO THIRD PARTY SITES",
+    p: [
+      {
+        content: "Our websites contain links to other websites that are not owned or controlled by Upskill Nexus. Please be aware that we are not responsible for the privacy practices of such other websites or third parties. We encourage you to be aware when you leave our Website and to read the privacy policies of each and every website that collects personal information."
+      },
+    ]
+  },
+  {
+    h: "PUBLIC FORUMS",
+    p: [
+      {
+        content: "Our Website offer publicly accessible blogs or community forums. You should be aware that any information you provide in these areas may be read, collected, and used by others who access them."
+      },
+      {
+        content: "Upskill Nexus may provide blogs, or community threads on the Company’s Website. Any personal information you choose to submit in such a forum may be read, collected, or used by others who visit these forums, and may be used to send you unsolicited messages. Upskill Nexus is not responsible for the personal information you choose to submit in these forums."
+      },
+      {
+        content: "Remember that when you share information publicly, it may be indexable by search engines."
+      },
+    ]
+  },
+  {
+    h: "SINGLE SIGN-ON & OTHER SOCIAL MEDIA FEATURES",
+    p: [
+      {
+        content: "Our Websites embed social media features, such as the Facebook “Like” button, the “Share” button. Where we have your consent, these features may collect your IP address, which page you are visiting on our Websites, and may set a cookie to enable the feature to function properly. Social media features and widgets are either hosted by a third party or hosted directly on our Websites. Your interactions with these features are governed by the privacy policy of the company providing them."
+      },
+      {
+        content: "You can log in to our Websites using sign-in services by Google. The services will authenticate your identity and provide you the option to share certain personal information with us such as your name and email address."
+      },
+    ]
+  },
+  {
+    h: "UPDATES & CONTACT INFO",
+    p: [
+      {
+        content: "From time to time, we may update this Policy. If we do, we’ll notify you by posting the policy on our site with a new effective date. If we make any material changes, we’ll take reasonable steps to notify you in advance of the planned change."
+      },
+    ]
   },
 ];
 
 const Privacy = () => {
   return (
-    <Flex py="5" bg="gray.50" flexDir={"column"} align="center">
+    <Flex py="5" flexDir={"column"} align="center">
       <Text fontSize={'40px'} textAlign={"center"}>Privacy Policy</Text>
-      <Box w={{ base: "90%", md: "80%" }} p="5">
+      <Box w={{ base: "100%", md: "80%" }} m="auto" p="5">
         <Text>
           We at Upskill Nexus respect your privacy and want you to understand
           how we collect, use, and share data about you. This Privacy Policy
@@ -420,27 +522,22 @@ const Privacy = () => {
           Policy or any other agreement that governs your use of the Services.
         </Text>
 
-        {/* <Heading size="lg">Information We Collect</Heading>
-        <Text>We may collect various types of information, including but not limited to:</Text> */}
-
         <Flex flexDir="column" gap="20px">
           {pData.map((ele, i) => (
             <Box
-              boxShadow={"md"}
               key={i}
-              bg="gray.100"
               p="3"
               borderRadius={"5px"}
             >
-              <Text fontSize="30px" color="gray.700">
+              <Text fontSize={{base: "22px", md: '30px'}} color="gray.700">
                 {ele.h}
               </Text>
               <Box>
                 {ele?.p.map((el, i) => (
                   <Box key={i}>
-                  
-                    <Text fontSize={'25px'} maxW="99%">{el?.heading}</Text>
-                    <Text maxW="99%">{el?.content}</Text>
+                    <Text fontSize={{base: "21px", md: '25px'}}>{el?.heading}</Text>
+                    <Text fontSize={{base: "19px", md: '20px'}}>{el?.heading2}</Text>
+                    <Text>{el?.content}</Text>
                   </Box>
                 ))}
               </Box>
